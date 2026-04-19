@@ -1,6 +1,6 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: noral
+ * Usuario: katiuscalugo
  * Fecha: 18/4/2026
  * Hora: 7:53 p. m.
  * 
