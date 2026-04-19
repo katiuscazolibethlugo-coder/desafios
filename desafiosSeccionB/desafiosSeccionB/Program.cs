@@ -7,6 +7,7 @@
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
+using System.IO;
 
 namespace desafiosSeccionB
 {
@@ -14,12 +15,38 @@ namespace desafiosSeccionB
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello!");
+			Program miPrograma = new Program();
 			
-			// 
+			//Simulaciom de entrada:usuario;clave
+		
+			miPrograma.ValidarSeguridad("usuario;123");
 			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
+			Console.WriteLine("Presione una tecla para salir...");
+			Console.ReadKey();
+		}
+		
+		public void ValidarSeguridad(string entrada)
+			{
+			
+			//Dividir la cadena por el punto y coma
+			
+				string[] partes = entrada.Split(';');
+				
+				//Validar que existan al menos dos partes (usuario y clave)
+				
+				if (partes.Length >= 2)
+				{
+					string clave = partes[1];
+					
+					if (clave.Contains("123"))
+					{
+						using (StreamWriter writer = new StreamWriter("seguridad.txt", true))
+						{
+							writer.WriteLine("Clave debil detectada");
+						}
+						Console.WriteLine("Alerta: Clave insegura registrada.");
+					}
+				}
+			}
 		}
 	}
-}

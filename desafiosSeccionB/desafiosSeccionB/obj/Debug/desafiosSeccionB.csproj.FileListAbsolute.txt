@@ -1,0 +1,6 @@
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\obj\Debug\desafiosSeccionB.csprojResolveAssemblyReference.cache
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\bin\Debug\desafiosSeccionB.exe.config
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\bin\Debug\desafiosSeccionB.exe
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\bin\Debug\desafiosSeccionB.pdb
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\obj\Debug\desafiosSeccionB.exe
+C:\Users\noral\Escritorio\desafios\desafiosSeccionB\desafiosSeccionB\obj\Debug\desafiosSeccionB.pdb
