@@ -14,9 +14,9 @@ namespace desafiosSeccionB
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Hello!");
 			
-			// TODO: Implement Functionality Here
+			// 
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
