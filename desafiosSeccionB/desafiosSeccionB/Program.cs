@@ -17,9 +17,9 @@ namespace desafiosSeccionB
 		{
 			Program miPrograma = new Program();
 			
-			//Simulaciom de entrada:usuario;clave
+			//Simulacion de entrada:usuario;clave
 		
-			miPrograma.ValidarSeguridad("usuario;123");
+			miPrograma.ValidarSeguridad("usuario;12345");
 			
 			Console.WriteLine("Presione una tecla para salir...");
 			Console.ReadKey();
