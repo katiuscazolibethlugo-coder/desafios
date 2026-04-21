@@ -18,18 +18,17 @@ namespace desafiosSeccionB
 			Program miPrograma = new Program();
 			
 			//Simulacion de entrada:usuario;clave
-		
-			miPrograma.ValidarSeguridad("usuario;12345");
+			
+			Console.WriteLine("Ingrese su usuario y su clave");
+			string entrada = Console.ReadLine();
+			string [] partes = entrada.Split(';');
 			
 			Console.WriteLine("Presione una tecla para salir...");
 			Console.ReadKey();
 		}
 		
 		public void ValidarSeguridad(string entrada)
-			{
-			
-			//Dividir la cadena por el punto y coma
-			
+		{	
 				string[] partes = entrada.Split(';');
 				
 				//Validar que existan al menos dos partes (usuario y clave)
